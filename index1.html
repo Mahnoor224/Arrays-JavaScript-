@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <h2>JavaScript</h2>
+        <p> About Animals</p>
+        <p>Wolves are complex, highly intelligent animals who are caring, playful, and above all devoted to family.</p>
+            <img src="pic.jpg" type="pic.jpg" height="200" width="200">
+            <p>Pandas have excellent camouflage for their habitat.Their eyes are different to normal bears.</p>
+            <img src="images.jpg" type="image.jpg" height="200" width="200">
+           <p>Lions are the only cats that live in groups.A group, or pride, can be up to 30 lions, depending on how much food and water is available.</p>
+           <img src="pic.webp" type="pic.webp" height="200" width="200">
+          <p>Tiger stripes are unique.Tigers can use their ears to communicate.India has over half the world's population of tigers.One meal a week.</p>
+          <img src="image.webp" type="image.webp" height="200" widht="200">
+           <p>Owls are known for their unique adaptations like silent flight, exceptional night vision and keen hearing, making them formidable nocturnal predators.</p>
+           <img src="images (1).jpg" type="image (1).jpg" wight="200" height="200">
+        </p>
+        <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+        <p id="mysecondpop"></p>
+        <p id="mythirdpop"></p>
+        <script>
+            var animals = ["wolf","panada","lion","tiger","owl"];
+            document.getElementById("myjoin").innerHTML = animals.join("*");
+            document.getElementById("myfirstpop").innerHTML = animals;
+            document.getElementById("mysecondpop").innerHTML = animals;
+            animals.pop();
+            document.getElementById("mythirdpop").innerHTML = animals
+        </script>
+    </body>
+</html>
